@@ -30,7 +30,7 @@ Check it out http://127.0.0.1:8000/docs
 
 There are two endpoints
 1) /stations/{1d}/isopen/
-id - (integer) Stations id 
+id - (Stations id : integer )
 return boolean value
 
 2) /stations/{id}/next/
