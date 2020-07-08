@@ -23,6 +23,7 @@ The project requires Python3.6.* or newest
 Start this project running next command:
 
 >uvicorn main:app
+
 Check it out http://127.0.0.1:8000/docs
 
 4 Backend API
