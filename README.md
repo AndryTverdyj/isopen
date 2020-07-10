@@ -30,9 +30,19 @@ Check it out http://127.0.0.1:8000/docs
 -----------------
 
 There are two endpoints
+
 1) /stations/{1d}/isopen/
 id - (Stations id : integer )
 return boolean value
 
 2) /stations/{id}/next/
 return text message about next event (For example: if station is open right now it will return message when this station will be closed )
+
+5 Testing
+-----------
+
+Run the tests using pytest
+
+> pytest [-v[v]]
+
+
